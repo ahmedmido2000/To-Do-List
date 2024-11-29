@@ -1,0 +1,74 @@
+.container{
+    background-color: #003049;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.add-container{
+    margin: 20px;
+}
+.add-container input{
+    width: 60%;
+    height: 40px;
+    margin-top: 25px;
+    background-color:#679289 ;
+}
+.add-container i {
+    font-size: 30px;
+    transform: translate(-15px,7px);
+    background-color: #D62828;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tasks-container{
+    color: #fff;
+    width: 100%;
+    min-height: 80px;
+    margin: auto;
+}
+.tasks-container > span{
+    display: block;
+    background-color: #679289;
+    margin:0 auto 10px;
+    height: 40px;
+    width: 80%;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    line-height: 40px;
+}
+.delete{
+    float:right;
+    background-color:#D62828 ;
+    font-size: 15px;
+    width: 40px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.tasks-state{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    margin: auto ;
+    justify-content: space-between;
+}
+.tasks-completed,.tasks-number{
+    font-size: 20px;
+    margin: 20px;
+}
+.tasks-completed span,.tasks-number span {
+    background-color: #D62828;
+    padding: 2px;
+    border-radius: 5px;
+}
+.complete{
+    text-decoration: line-through;
+}
+.all{
+    font-size: 20px;
+    margin: 20px ;
+    background-color:#D62828 ;
+    padding: 5px;
+    cursor: pointer;
+}
